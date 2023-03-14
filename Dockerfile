@@ -19,7 +19,7 @@ RUN npm run build
 # Start second build stage
 
 FROM mhart/alpine-node:14
-EXPOSE 3000
+EXPOSE 3030
 WORKDIR /usr/src/app
 
 # Copy the source from the build stage to the second stage
